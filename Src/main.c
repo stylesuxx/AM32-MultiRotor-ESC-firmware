@@ -170,8 +170,8 @@
 
 //firmware build options !! fixed speed and duty cycle modes are not to be used with sinusoidal startup !!
 
-//#define FIXED_DUTY_MODE  // bypasses signal input and arming, uses a set duty cycle. For pumps, slot cars etc
-//#define FIXED_DUTY_MODE_POWER 100     // 0-100 percent not used in fixed speed mode
+#define FIXED_DUTY_MODE  // bypasses signal input and arming, uses a set duty cycle. For pumps, slot cars etc
+#define FIXED_DUTY_MODE_POWER 100     // 0-100 percent not used in fixed speed mode
 
 //#define FIXED_SPEED_MODE  // bypasses input signal and runs at a fixed rpm using the speed control loop PID
 //#define FIXED_SPEED_MODE_RPM  1000  // intended final rpm , ensure pole pair numbers are entered correctly in config tool.
